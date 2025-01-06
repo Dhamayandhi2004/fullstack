@@ -26,9 +26,10 @@ mdb
 app.get("/", (req, res) => {
   res.json({
     server: "welcome to backend server..",
-    url: "localhost",
-    PORT: { PORT },
-  });
+    url: "https://fullstack-1-n2fa.onrender.com",
+    PORT: PORT,
+});
+;
 });
 app.get("/json", (req, res) => {
   res.json({
