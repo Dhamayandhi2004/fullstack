@@ -17,7 +17,7 @@ function SignUpForm() {
   password:password
    });
    console.log(req);
-   navigate('/login');
+   navigate('/');
   };
 
  
