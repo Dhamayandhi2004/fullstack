@@ -8,7 +8,7 @@ var[password,setPassword]=useState("")
 var navigate=useNavigate()
 var login=async(event)=>{
     event.preventDefault();
-var req=await axios.post("http://https://fullstack-1-n2fa.onrender.com/login",{
+var req=await axios.post("https://fullstack-1-n2fa.onrender.com/login",{
 email,password
 });
 console.log(req);
