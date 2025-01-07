@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import NavBar from './navbar';
 var UseEffect = () => {
   var [img, setImg] = useState([]);
   useEffect(() => {
@@ -15,6 +16,7 @@ var UseEffect = () => {
   }, []);
   return (
     <section>
+      <NavBar/>
       <h1>Fetching Images from Json placeholder api</h1>
       <h2>Images are </h2>
       <ul style={{ display: "flex", flexWrap: "wrap", listStyle: "none", padding: 0 }}>
